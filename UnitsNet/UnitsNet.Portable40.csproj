@@ -40,6 +40,8 @@
   </PropertyGroup>
   <ItemGroup>
     <!-- A reference to the entire .NET Framework is automatically included -->
+    <Compile Include="CustomCode\UnitClasses\SpecificWeight.extra.cs" />
+    <Compile Include="CustomCode\UnitClasses\Density.extra.cs" />
     <None Include="packages.config" />
     <None Include="packages.UnitsNet.Portable40.config" />
   </ItemGroup>
